@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="h-screen bg-slate-900">
+    <h1
+      class="text-4xl text-center tracking-tighter font-medium p-8 text-white"
+    >
+      Rock Paper Scissors
+    </h1>
+    <div class="flex justify-around p-4">
+      <div>
+        <img
+          src="./images/paper.png"
+          alt=""
+          class="w-64 h-64 object-cover rounded-full"
+          id="paper"
+        />
+      </div>
+      <div>
+        <img
+          src="./images/rock.png"
+          alt=""
+          class="w-64 h-64 object-cover rounded-full"
+          id="rock"
+        />
+      </div>
+      <div>
+        <img
+          src="./images/scissors.png"
+          alt=""
+          class="w-64 h-64 object-cover rounded-full"
+          id="scissor"
+        />
+      </div>
+    </div>
+    <div class="text-white flex justify-evenly text-3xl min-h-40 items-center p-4 mt-3">
+      <div><h1 class="text-red-500">Your Score</h1>
+    <h1 class="text-center" id="player_score">0</h1></div>
+      <div><h1 class="text-red-500">Computer Score</h1>
+    <h1 class="text-center" id="computer_score">0</h1></div>
+    </div>
+    <div class="text-white"><h1 class="text-center">Demo text</h1></div>
+    <script src="index.js"></script>
+  </body>
+</html>
